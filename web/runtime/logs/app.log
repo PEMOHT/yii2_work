@@ -1,0 +1,59 @@
+2017-08-24 00:12:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in F:\OSPanel\domains\yii2_test\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 F:\OSPanel\domains\yii2_test\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#1 F:\OSPanel\domains\yii2_test\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\OSPanel\domains\yii2_test\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\OSPanel\domains\yii2_test\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 F:\OSPanel\domains\yii2_test\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\OSPanel\domains\yii2_test\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2017-08-24 00:12:07 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '216104a9ca9fdbe5bede65f4f5b1064c2b7d47bfd56852c91b0df688505816a0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¤En‚O$Ó™	©°ÁZñD	F®á`9î!©/†9E\";}'
+    'PHPSESSID' => 'hulald3804juvn5an88d0ddtg4'
+    '_identity' => 'f4d1c5f94f3022d56d0a77d0ac76fcca376a9f706eab1cb60c8858c7eb78d383a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"101\",\"test101key\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://yii2-test/index.php/work/view/?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=216104a9ca9fdbe5bede65f4f5b1064c2b7d47bfd56852c91b0df688505816a0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A4En%82O%24%D3%99%09%A9%B0%C1%1FZ%F1D%09F%AE%13%1A%E1%609%EE%05%21%A9%2F%869E%22%3B%7D; PHPSESSID=hulald3804juvn5an88d0ddtg4; _identity=f4d1c5f94f3022d56d0a77d0ac76fcca376a9f706eab1cb60c8858c7eb78d383a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22101%22%2C%22test101key%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'f:\\ospanel\\modules\\php\\PHP-5.6-x64\\ext;f:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear;f:\\ospanel\\modules\\php\\PHP-5.6-x64\\pear\\bin;f:\\ospanel\\modules\\php\\PHP-5.6-x64;f:\\ospanel\\modules\\imagemagick;f:\\ospanel\\modules\\wget\\bin;f:\\ospanel\\modules\\git;f:\\ospanel\\modules\\git\\bin;f:\\ospanel\\modules\\git\\mingw\\bin;f:\\ospanel\\modules\\git\\cmd;f:\\ospanel\\modules\\database\\MySQL-5.6\\bin;f:\\ospanel\\modules\\dns\\Bind-9.10-x64;f:\\ospanel\\modules\\http\\Apache-2.4-x64\\bin;f:\\ospanel\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OSPanel/domains/yii2_test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OSPanel/domains/yii2_test/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OSPanel/domains/yii2_test/web/index.php'
+    'REMOTE_PORT' => '38225'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503522727.134
+    'REQUEST_TIME' => 1503522727
+    'argv' => []
+    'argc' => 0
+]
